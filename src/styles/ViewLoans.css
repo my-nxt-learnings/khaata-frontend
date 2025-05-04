@@ -1,0 +1,29 @@
+
+.loans-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .loans-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .loan-card {
+    padding: 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .loan-card p {
+    margin: 6px 0;
+    font-size: 15px;
+  }
+  

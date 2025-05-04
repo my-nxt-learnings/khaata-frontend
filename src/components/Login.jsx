@@ -15,7 +15,7 @@ const Login = () => {
     try {
       const data = await login(formData);
       if (data.token) {
-        localStorage.setItem('token', data.token); // ✅ Save token
+        localStorage.setItem('token', data.token); 
         navigate('/dashboard');
       } else {
         throw new Error('No token received');
