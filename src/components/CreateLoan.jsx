@@ -40,7 +40,7 @@ const CreateLoan = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/loans', {
+      const res = await fetch('https://khaata-backend-g0u9.onrender.com/api/loans', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
