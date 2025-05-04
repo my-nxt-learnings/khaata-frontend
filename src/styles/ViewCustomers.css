@@ -1,0 +1,29 @@
+/* src/styles/ViewCustomers.css */
+.customers-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .customers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .customer-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .customer-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,39 @@
+/* src/styles/AddRepayment.css */
+.repayment-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .repayment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .repayment-form input,
+  .repayment-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+  }
+  
+  .repayment-form label {
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .repayment-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

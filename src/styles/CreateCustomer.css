@@ -1,0 +1,33 @@
+/* src/styles/CreateCustomer.css */
+.create-customer-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fefefe;
+  }
+  
+  .create-customer-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-customer-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+  }
+  
+  .create-customer-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
